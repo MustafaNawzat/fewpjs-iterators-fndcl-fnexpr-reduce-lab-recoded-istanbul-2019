@@ -6,9 +6,7 @@ const totalBatteries = (batteryBatches.reduce());
 
 
 
-const array1 = [1, 2, 3, 4];
-const reducer = (accumulator, currentValue) => accumulator + currentValue;
-
-// 1 + 2 + 3 + 4
-console.log(array1.reduce(reducer));
-// expected output: 10
+    var numbers = [1,2,3]; 
+    var sum = numbers.reduce(function(total, current){
+        return total + current;
+    });
